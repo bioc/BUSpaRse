@@ -4,7 +4,7 @@ Title: kallisto | bustools R utilities
 Version: 1.21.0
 Date: 2024-07-31
 Authors@R: 
-    c(person("Lambda", "Moses", email = "dlu2@caltech.edu", 
+    c(person("Lambda", "Moses", email = "dl3764@columbia.edu", 
     role = c("aut", "cre"),
     comment = c(ORCID = "0000-0002-7092-9427")),
     person("Lior", "Pachter", email = "lpachter@caltech.edu",
