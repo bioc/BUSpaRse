@@ -62,7 +62,7 @@ the same order.
 # Download dataset already in BUS format
 library(TENxBUSData)
 TENxBUSData(".", dataset = "hgmm100")
-tr2g <- transcript2gene(c("Homo sapiens", "Mus musculus"), 
+tr2g <- transcript2gene(c("Homo sapiens", "Mus musculus"),
   type = "vertebrate", save_filtered = FALSE,
   ensembl_version = 99, kallisto_out_path = "./out_hgmm100")
 # Clean up files from the example

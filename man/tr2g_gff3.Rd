@@ -171,7 +171,7 @@ tags for Ensembl and RefSeq GFF3 files, see \code{data("ensembl_gff_mcols")} and
 toy_path <- system.file("testdata", package = "BUSpaRse")
 file_use <- paste(toy_path, "gff3_test.gff3", sep = "/")
 # Default
-tr2g <- tr2g_gff3(file = file_use, write_tr2g = FALSE, 
+tr2g <- tr2g_gff3(file = file_use, write_tr2g = FALSE,
 get_transcriptome = FALSE, save_filtered_gff = FALSE)
 # Excluding version numbers
 tr2g <- tr2g_gff3(file = file_use, transcript_version = NULL,

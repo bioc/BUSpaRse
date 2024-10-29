@@ -116,7 +116,7 @@ also be columns in the data frame returned.
 This function queries Ensembl biomart to convert transcript IDs to gene IDs.
 }
 \examples{
-tr2g <- tr2g_ensembl(species = "Danio rerio", 
+tr2g <- tr2g_ensembl(species = "Danio rerio",
 other_attrs = "description", write_tr2g = FALSE)
 # This will use plants.ensembl.org as host instead of www.ensembl.org
 tr2g <- tr2g_ensembl(species = "Arabidopsis thaliana", type = "plant",

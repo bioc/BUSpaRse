@@ -58,7 +58,7 @@ Imports:
     utils,
     zeallot
 LinkingTo: Rcpp, RcppArmadillo, RcppProgress, BH
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.2
 Roxygen: list(markdown = TRUE)
 Suggests: 
     knitr,
@@ -68,7 +68,6 @@ Suggests:
     txdbmaker,
     TENxBUSData,
     TxDb.Hsapiens.UCSC.hg38.knownGene,
-    txdbmaker,
     BSgenome.Hsapiens.UCSC.hg38,
     EnsDb.Hsapiens.v86
 VignetteBuilder: knitr
